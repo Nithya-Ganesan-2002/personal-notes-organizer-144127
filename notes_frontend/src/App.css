@@ -60,18 +60,45 @@
 
 .theme-toggle {
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 20px;
-  background-color: var(--button-bg);
-  color: var(--button-text);
+  background: var(--color-f6a89e);
+  color: var(--color-33322e, #33322e);
   border: none;
   border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 600;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-family: var(--font-roboto);
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.21s;
+  box-shadow: 0 2px 6px rgba(31, 45, 61, 0.07);
+  z-index: 400;
+  outline: none;
+}
+
+.sidebar-actions {
+  margin-top: 34px;
+  border-top: 1.5px solid var(--color-f4d799);
+  text-align: center;
+}
+.side-create-btn {
+  background: var(--color-8cd4cb);
+  color: var(--color-33322e);
+  border: none;
+  border-radius: 6px;
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px 18px;
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  opacity: 0.54;
+  transition: all 0.16s;
+}
+.side-create-btn:active {
+  transform: scale(0.97);
+  background: var(--color-f6a89e);
 }
 
 .theme-toggle:hover {
