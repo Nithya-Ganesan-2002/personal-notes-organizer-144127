@@ -2,7 +2,7 @@
 .noted-root {
   min-height: 100vh;
   width: 100vw;
-  background: var(--color-ffffff);
+  background: var(--color-ffffff); /* Figma: white main background */
   font-family: var(--font-roboto);
   color: var(--color-33322e);
   display: flex;
@@ -13,7 +13,7 @@
 .noted-navbar {
   height: 64px;
   width: 100%;
-  background: var(--color-f9f3e5);
+  background: var(--color-f9f3e5); /* Figma: navbar background */
   border-bottom: 2px solid var(--color-f4d799);
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@
 /* Sidebar */
 .noted-sidebar {
   width: 320px;
-  background: var(--color-f9f3e5);
+  background: var(--color-f9f3e5); /* Figma: sidebar background */
   border-right: 2px solid var(--color-f4d799);
   min-height: 0;
   display: flex;
@@ -104,6 +104,7 @@
     width: 100vw;
     max-width: 100vw;
     min-width: 0;
+    background: var(--color-f9f3e5); /* Sidebar same background on mobile */
     border-right: none;
     border-bottom: 2px solid var(--color-f4d799);
   }
@@ -116,7 +117,7 @@
 /* Main panel */
 .noted-main {
   flex: 1 1 auto;
-  background: var(--color-ffffff);
+  background: var(--color-ffffff); /* Figma: main content panel area */
   padding: 0 44px 0 36px;
   min-width: 0;
   min-height: 0;
